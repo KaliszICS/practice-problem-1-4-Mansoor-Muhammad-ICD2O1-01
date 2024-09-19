@@ -1,16 +1,28 @@
-
+'''
+Lesson: Input and F strings
+Author: Mansoor Muhammad
+Date Created: Spet, 2024
+Date last modified: sept 19, 2024
+'''
 
 def q1():
-  #Write Assignment code here
+  words = input("Typeth your name: ")
+  print("your name is " + words)
 
 def q2():
-  #Write Assignment code here
+  Words = input("Wirte your FIRST NAME: ")
+  print("Hello " + Words)
 
 def q3():
-  #Write Assignment code here
+  WOrds = input("enteer your first name: ")
+  Diddy = input("Now enter your last name: ")
+  print(f"{Diddy} {WOrds}")
 
 def q4():
-  #Write Assignment code here
+  Widdy = input("Enter a students name: ")
+  WORDS = input("Enter another students name: ")
+  print(f"{Widdy} {WORDS}")
+
 
 #Do not edit code below this comment
 

@@ -6,27 +6,28 @@ Date last modified: sept 19, 2024
 '''
 
 def q1():
-  words = input("Typeth your name: ")
-  print("your name is " + words)
+  alphabet = input("Input a word: ")
+  print(alphabet)
 
 def q2():
-  Words = input("Wirte your FIRST NAME: ")
+  Words = input("Input your first name: ")
   print("Hello " + Words)
 
 def q3():
-  WOrds = input("enteer your first name: ")
-  Diddy = input("Now enter your last name: ")
-  print(f"{Diddy} {WOrds}")
+  WOrds = input("Input your first name: ")
+  party = input("Input your last name: " )
+  print(f"{party} {WOrds}")
 
 def q4():
-  Widdy = input("Enter a students name: ")
-  WORDS = input("Enter another students name: ")
-  print(f"{Widdy} {WORDS}")
+  Witty = input("Input a student: ")
+  wick = input("Input another student: ")
+  print(f"Your students are {Witty} and {wick}")
 
 
 #Do not edit code below this comment
-
+'''
 q1()
 q2()
 q3()
 q4()
+'''
